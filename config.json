@@ -1,0 +1,16 @@
+{
+  "debug": {
+    "domain": "http://10.1.87.24:8283",
+    "root": ""
+  },
+  "dev": {
+    "domain": "http://10.1.87.24:8283",
+    "root": "/bdmpmeta-dev"
+  },
+  "test": {
+    "domain": "http://10.1.87.24:8282",
+    "root": "/bdmpmeta"
+  },
+  "pro": {
+  }
+}

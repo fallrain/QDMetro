@@ -1,0 +1,197 @@
+$sw: 1080;
+$sh: 2120;
+* {
+  box-sizing: border-box;
+}
+
+.qdm {
+  .navbar {
+    background: #148304;
+    .qdm-titleSearch-gp {
+      position: relative;
+      height: 28px;
+      width: 70%;
+      margin: auto;
+      .sch, .mic {
+        font-size: 1.2rem;
+        position: absolute;
+      }
+      .sch {
+        left: .5rem;
+        top: 50%;
+        margin-top: -.6rem;
+      }
+      .mic {
+        right: .5rem;
+        top: 50%;
+        margin-top: -.6rem;
+      }
+      .ipt {
+        border-radius: 10rem;
+        padding-left: 2.2rem;
+      }
+    }
+  }
+  .toolbar {
+    background: #f8f8f8;
+    height: 150*100/$sw +vw;
+    border-top: 2px solid #999;
+    .tab-link {
+      &.active {
+        i {
+          color: #148304;
+        }
+        .tabbar-label {
+          color: #333;
+        }
+      }
+      i {
+        font-size: 59*100/$sw+vw;
+      }
+    }
+  }
+  .tabbar {
+    a {
+      color: #999;
+    }
+  }
+  .tabbar-label {
+    line-height: 1;
+    font-size: 33*100/$sw +vw;
+    margin-top: 10*100/$sw +vw;
+  }
+}
+
+.linePar {
+  position: relative;
+}
+
+.component {
+  position: absolute;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.tip {
+  position: absolute;
+  width: 171px;
+  height: 81px;
+  background: url('../../img/paopao.png');
+  background-repeat: no-repeat;
+  top: 300px;
+  left: 120px;
+}
+
+.zhanname {
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 160px;
+  margin: auto;
+  height: 30px;
+  border-bottom: 1px solid;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.zbtns {
+  margin-top: 5px;
+}
+
+.qd {
+  background: rgb(0, 102, 0);
+  margin-left: 15px;
+}
+
+.zd {
+  background: rgb(255, 0, 0);
+}
+
+.qd, .zd {
+  width: 70px;
+  height: 28px;
+  line-height: 28px;
+  border: none;
+  color: #fff;
+}
+
+.line-btm-btns {
+  width: 80%;
+  margin: auto;
+}
+
+.topzhan {
+  width: 90%;
+  height: 60px;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.topzhanCard {
+  width: 110px;
+  height: 56px;
+  line-height: 56px;
+  background: rgb(204, 204, 204);
+  p {
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+    margin-top: 6px;
+    font-size: .6rem;
+  }
+  i {
+    margin-right: .3rem;
+  }
+}
+
+.topzhanCardL {
+  float: left;
+}
+
+.topzhanCardR {
+  float: right;
+}
+
+.address-ttl {
+  border-bottom: 1px solid #ccc;
+  height: 25px;
+  line-height: 25px;
+  .inf {
+    font-weight: 600;
+    color: #000;
+    float: left;
+  }
+  .opt {
+    color: red;
+    float: right;
+  }
+}
+
+.address {
+  margin-left: 10px;
+  margin-right: 10px;
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    border-bottom: 1px solid #ccc;
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+    i {
+      position: absolute;
+      top: 50%;
+      margin-top: -.5rem;
+      right: 10px;
+      font-size: 1rem;
+    }
+  }
+}
+
+.address-ttl:after {
+  content: '';
+  display: block;
+  clear: both;
+}

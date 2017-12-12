@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "This is for jiantoushuju !",
+  "homepage": "",
+  "author": {
+    "name": "wangguangkai",
+    "email": "41266475@qq.com"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.2.0",
+    "gulp-template": "^4.0.0"
+  },
+  "dependencies": {
+    "run-sequence": "^2.2.0",
+    "sass": "^1.0.0-beta.3"
+  }
+}
