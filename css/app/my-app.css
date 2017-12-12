@@ -2,19 +2,26 @@
   box-sizing: border-box; }
 
 .qdm .navbar {
-  background: #148304; }
+  background: #148304;
+  height: 12.2222222222vw; }
+  .qdm .navbar .qdm-icon-back {
+    color: #fff; }
+  .qdm .navbar .icon-xiaoxi {
+    font-size: 6.1111111111vw;
+    color: #fff; }
   .qdm .navbar .qdm-titleSearch-gp {
     position: relative;
     height: 28px;
-    width: 70%;
-    margin: auto; }
+    width: 62.5235404896%;
+    margin-left: 19.5856873823%; }
     .qdm .navbar .qdm-titleSearch-gp .sch, .qdm .navbar .qdm-titleSearch-gp .mic {
       font-size: 1.2rem;
       position: absolute; }
     .qdm .navbar .qdm-titleSearch-gp .sch {
       left: .5rem;
       top: 50%;
-      margin-top: -.6rem; }
+      margin-top: -.77rem;
+      color: #148304; }
     .qdm .navbar .qdm-titleSearch-gp .mic {
       right: .5rem;
       top: 50%;

@@ -7,11 +7,19 @@ $sh: 2120;
 .qdm {
   .navbar {
     background: #148304;
+    height: 132*100/$sw +vw;
+    .qdm-icon-back {
+      color: #fff;
+    }
+    .icon-xiaoxi {
+      font-size: 66*100/$sw +vw;
+      color: #fff;
+    }
     .qdm-titleSearch-gp {
       position: relative;
       height: 28px;
-      width: 70%;
-      margin: auto;
+      width: percentage(664/($sw - 18));
+      margin-left: percentage(($sw - 664)/($sw - 18)/2);
       .sch, .mic {
         font-size: 1.2rem;
         position: absolute;
@@ -19,7 +27,8 @@ $sh: 2120;
       .sch {
         left: .5rem;
         top: 50%;
-        margin-top: -.6rem;
+        margin-top: -.77rem;
+        color: #148304;
       }
       .mic {
         right: .5rem;
