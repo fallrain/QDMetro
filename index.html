@@ -39,7 +39,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <!-- We have home navbar without left link-->
-        <div class="qdm-titleSearch-gp">
+        <div class="qdm-titleSearch-gp center">
           <i class="iconfont icon-sousuo sch"></i>
           <input type="text" class="ipt" id="sch" placeholder="搜索" readonly>
         </div>
@@ -61,45 +61,140 @@
       <div data-page="index" class="page">
         <!-- Scrollable page content-->
         <div class="page-content">
-          <div class="linePar">
-            <img src="img/line.png" alt="">
-            <div class="tip">
-              <div class="zhanname">延安三路</div>
-              <div class="zbtns">
-                <button type="button" class="qd">设为起点</button>
-                <button type="button" class="zd">设为终点</button>
-              </div>
-            </div>
+          <div class="top-fun-par">
+            <ul class="funItems">
+              <li>
+                <i class="iconfont icon-luxian"></i>
+                <span>路线查询</span>
+              </li>
+              <li>
+                <i class="iconfont icon-saoma"></i>
+                <span>扫码过闸</span>
+              </li>
+              <li>
+                <i class="iconfont icon-yinxingqia"></i>
+                <span>地铁云卡</span>
+              </li>
+              <li>
+                <i class="iconfont icon-piao"></i>
+                <span>在线订票</span>
+              </li>
+            </ul>
           </div>
-          <div class="line-btm-btns">
-            <p class="buttons-row">
-              <a href="#" class="button button-round active">站点</a>
-              <a href="#" class="button button-round">搜索</a>
-            </p>
+          <div class="mid-fun-par">
+            <ul class="funItems">
+              <li>
+                <i class="iconfont icon-zhandian icon-fun-blue"></i>
+                <span>站点查询</span>
+              </li>
+              <li>
+                <i class="iconfont icon-wifi icon-fun-blue icon-fun-green"></i>
+                <span>地铁wifi</span>
+              </li>
+              <li>
+                <i class="iconfont icon-jianyi icon-fun-yellow"></i>
+                <span>检验献策</span>
+              </li>
+              <li>
+                <i class="iconfont icon-icon_shiwuzhaoling icon-fun-xh"></i>
+                <span>失物招领</span>
+              </li>
+              <li>
+                <i class="iconfont icon-huodongyujingqujiudianxiangqingyeicon08 icon-fun-blue"></i>
+                <span>地图导览</span>
+              </li>
+              <li>
+                <i class="iconfont icon-huodongyujingqujiudianxiangqingyeicon08 icon-fun-yellow"></i>
+                <span>客流实况</span>
+              </li>
+              <li>
+                <i class="iconfont icon-huodongyujingqujiudianxiangqingyeicon08 icon-fun-green"></i>
+                <span>地铁安全</span>
+              </li>
+              <li class="js-moreFun">
+                <i class="iconfont icon-gengduo icon-fun-blue"></i>
+                <span>更多</span>
+              </li>
+            </ul>
           </div>
-          <div style="display: none;" class="list-block">
-            <ul>
-              <li><a href="about.html" class="item-link" id="toLineDetail">
-                <div class="item-content">
-                  <div class="item-inner">
-                    <div class="item-title">About</div>
+          <div class="notice-par index-pd-lr pseudo-clear">
+            <div class="notice-img left">
+              <img src="./img/index-notice.png"></div>
+            <ul class="left">
+              <li>9.12看给你地铁停止进行维护通知</li>
+              <li>新增地铁一号线，试运行通知</li>
+            </ul>
+          </div>
+          <div class="index-news-par">
+            <ul class="news-list">
+              <li class="news-list-item">
+                <div class="news-list-img">
+                  <img src="./img/index-zhan-1.jpg">
+                </div>
+                <div class="news-list-inf">
+                  <h3 class="news-list-inf-title">青岛汇泉广场</h3>
+                  <p class="news-list-inf-cnt">青岛汇泉广场位于文登路中段,南面是大 型音乐喷泉广场，目前国内最大...</p>
+                  <div class="news-list-inf-btm">
+                    <span class="news-list-inf-btm-time">2017-09-21 08:30:28</span>
+                    <span class="news-list-inf-btm-read">
+                      <i class="iconfont icon-yanjing "></i>
+                      <span>2508</span>
+                    </span>
                   </div>
                 </div>
-              </a></li>
-              <li><a href="services.html" class="item-link">
-                <div class="item-content">
-                  <div class="item-inner">
-                    <div class="item-title">Services</div>
+              </li>
+              <li class="news-list-item">
+                <div class="news-list-img">
+                  <img src="./img/index-zhan-1.jpg">
+                </div>
+                <div class="news-list-inf">
+                  <h3 class="news-list-inf-title">青岛汇泉广场</h3>
+                  <p class="news-list-inf-cnt">青岛汇泉广场位于文登路中段,南面是大 型音乐喷泉广场，目前国内最大...</p>
+                  <div class="news-list-inf-btm">
+                    <span class="news-list-inf-btm-time">2017-09-21 08:30:28</span>
+                    <span class="news-list-inf-btm-read">
+                      <i class="iconfont icon-yanjing "></i>
+                      <span>2508</span>
+                    </span>
                   </div>
                 </div>
-              </a></li>
-              <li><a href="form.html" class="item-link">
-                <div class="item-content">
-                  <div class="item-inner">
-                    <div class="item-title">Form</div>
-                  </div>
-                </div>
-              </a></li>
+              </li>
+            </ul>
+            <ul class="imgnews-list">
+              <li class="imgnews-list-item">
+                <h3 class="imgnews-list-item-title">一组青岛绝版老照片，不看就再也没有了！八大关...</h3>
+                <ul class="imgnews-list-item-img pseudo-clear">
+                  <li>
+                    <img src="./img/index-news-1.jpg">
+                  </li>
+                  <li>
+                    <img src="./img/index-news-2.jpg">
+                  </li>
+                  <li>
+                    <img src="./img/index-news-3.jpg">
+                  </li>
+                  <li>
+                    <img src="./img/index-news-4.jpg">
+                  </li>
+                </ul>
+              </li>
+              <li class="imgnews-list-item">
+                <h3 class="imgnews-list-item-title">一组青岛绝版老照片，不看就再也没有了！八大关...</h3>
+                <ul class="imgnews-list-item-img pseudo-clear">
+                  <li>
+                    <img src="./img/index-news-1.jpg">
+                  </li>
+                  <li>
+                    <img src="./img/index-news-2.jpg">
+                  </li>
+                  <li>
+                    <img src="./img/index-news-3.jpg">
+                  </li>
+                  <li>
+                    <img src="./img/index-news-4.jpg">
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
