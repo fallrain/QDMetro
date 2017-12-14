@@ -88,11 +88,12 @@ ol, ul {
   }
   .page-content {
     padding-bottom: 180*100/$sw +vw;
+    background: #f8f8f8;
   }
   .toolbar {
     background: #f8f8f8;
     height: 150*100/$sw +vw;
-    border-top: 2px solid #999;
+    border-top: 1px solid #999;
     .link {
       &.active {
         i {
@@ -545,6 +546,7 @@ ol, ul {
 .product-list-par {
   @extend .index-pd-lr;
   margin-top: vw(20);
+  background: #fff;
 }
 
 .product-list-item {
@@ -553,6 +555,7 @@ ol, ul {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   margin-bottom: vw(32);
+  background: #fff;
 }
 
 .product-list-item-img,
@@ -611,7 +614,7 @@ ol, ul {
 
 .product-detail-cnt {
   //@extend .index-pd-lr;
-  .price{
+  .price {
     @extend .index-pd-lr;
   }
 }
@@ -683,4 +686,21 @@ ol, ul {
   margin-left: vw(15);
   padding: vw(10);
   border-radius: vw(10);
+}
+
+.inf-banner {
+  font-size: 0;
+  img {
+    width: 100%;
+    height: vw(566);
+  }
+}
+
+.bztj {
+  background: #fff;
+  margin: 0;
+  @extend .index-pd-lr;
+  font-size: vw(39);
+  height: vw(112);
+  line-height: vw(112);
 }
