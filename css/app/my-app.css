@@ -371,6 +371,9 @@ ol, ul {
 .moreFun-page-content {
   background: #fff; }
 
+.moreFun-par {
+  background: #fff; }
+
 .my-funs-title {
   border-left: 2.7777777778vw solid #ffcc33;
   background: #f8f8f8;
@@ -523,5 +526,17 @@ ol, ul {
   font-size: 3.6111111111vw;
   height: 10.3703703704vw;
   line-height: 10.3703703704vw; }
+
+.inf-index-tab {
+  display: -webkit-flex;
+  display: flex;
+  background: #ececec; }
+  .inf-index-tab li {
+    width: 25%;
+    height: 11.1111111111vw;
+    line-height: 11.1111111111vw;
+    text-align: center; }
+  .inf-index-tab .active {
+    border-bottom: 2px solid #ffcc33; }
 
 /*# sourceMappingURL=my-app.css.map */

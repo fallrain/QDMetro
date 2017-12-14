@@ -492,6 +492,10 @@ ol, ul {
   background: #fff;
 }
 
+.moreFun-par {
+  background: #fff;
+}
+
 .my-funs-title {
   border-left: vw(30) solid #ffcc33;
   background: #f8f8f8;
@@ -703,4 +707,19 @@ ol, ul {
   font-size: vw(39);
   height: vw(112);
   line-height: vw(112);
+}
+
+.inf-index-tab {
+  display: -webkit-flex;
+  display: flex;
+  background: #ececec;
+  li {
+    width: 25%;
+    height: vw(120);
+    line-height: vw(120);
+    text-align: center;
+  }
+  .active{
+    border-bottom:2px solid #ffcc33;
+  }
 }
