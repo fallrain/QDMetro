@@ -1,5 +1,39 @@
 // Initialize your app
-var myApp = new Framework7();
+var myApp = new Framework7({
+  onPageInit: function () {
+    function init() {
+      bindFun();
+    }
+
+    function bindFun() {
+      //搜索框跳页
+      $('#sch').click(function (e) {
+        //e.preventDefault();
+        mainView.router.load({
+          url: 'about.html'
+        })
+      });
+      $('.js-moreFun').click(function () {
+        mainView.router.load({
+          url: 'moreFun.html'
+        })
+      });
+      $('.imgnews-list-item,.news-list-item').click(function () {
+        mainView.router.load({
+          url: 'newsDetail.html'
+        })
+      });
+      //底栏图标active
+      $('.toolbar-inner').click('a', function (e) {
+        var as = $(this).children('a');
+        as.removeClass('active');
+        $(e.target).closest('a').addClass('active');
+      })
+    }
+
+    init();
+  }
+});
 
 // Export selectors engine
 var $$ = Dom7;
@@ -19,6 +53,16 @@ myApp.onPageInit('about', function (page) {
   });
   $('.address').on('click', 'i', function () {
     $(this).closest('li').remove();
+  });
+});
+
+//商城模块
+myApp.onPageInit('mail-index', function (page) {
+  //点击商品，跳转商品详情
+  $('.product-list-item').on('click', function () {
+    mainView.router.load({
+      url: 'product-detail.html'
+    })
   });
 });
 
@@ -51,31 +95,3 @@ function createContentPage() {
   );
   return;
 }
-
-(function () {
-  function init() {
-    bindFun();
-  }
-
-  function bindFun() {
-    //搜索框跳页
-    $('#sch').click(function (e) {
-      //e.preventDefault();
-      mainView.router.load({
-        url: 'about.html'
-      })
-    });
-    $('.js-moreFun').click(function () {
-      mainView.router.load({
-        url: 'moreFun.html'
-      })
-    });
-    $('.imgnews-list-item,.news-list-item').click(function () {
-      mainView.router.load({
-        url: 'newsDetail.html'
-      })
-    });
-  }
-
-  init();
-})();
