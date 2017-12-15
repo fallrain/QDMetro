@@ -758,6 +758,7 @@ ol, ul {
   }
 }
 
+.card-suc-par,
 .card-par {
   width: vw(884);
   height: vw(632);
@@ -766,6 +767,9 @@ ol, ul {
   top: vw(835);
   left: vw(119);
   border-radius: 14px;
+}
+
+.card-par {
   p {
     margin: auto;
     width: 80%;
@@ -808,16 +812,20 @@ ol, ul {
     margin-left: vw(75);
   }
   .kt {
+    display: block;
     width: vw(872);
     height: vw(108);
+    line-height: vw(108);
     color: #fff;
     background: #ffcc00;
     outline: 0;
     border-radius: vw(10);
     border: 0;
-    position: relative;
-    left: 50%;
-    margin-left: vw(-872/2);
+    margin: auto;
+    text-align: center;
+    /* position: relative;
+     left: 50%;
+     margin-left: vw(-872/2);*/
   }
   .gz {
     margin-top: vw(75);
@@ -920,5 +928,42 @@ ol, ul {
   .icon-weixin {
     color: #7cc97c;
     font-size: vw(100);
+  }
+}
+
+.card-suc-par {
+  p {
+    margin: 0;
+    line-height: 1.4;
+  }
+  & > p,
+  & > div {
+    padding-left: vw(59);
+  }
+  & > div {
+    margin-top: vw(56);
+    a:nth-child(1) {
+      margin-right: vw(239);
+    }
+  }
+  p:nth-child(1) {
+    margin: auto;
+    margin-top: vw(57);
+    height: vw(98);
+    width: 80%;
+    background: #fff;
+  }
+  p:nth-child(2) {
+    text-align: center;
+    margin-top: vw(30);
+    margin-bottom: vw(66);
+    font-size: vw(39);
+    font-weight: 600;
+  }
+  .red {
+    color: #ff6666;
+  }
+  .blue {
+    color: #0099ff;
   }
 }

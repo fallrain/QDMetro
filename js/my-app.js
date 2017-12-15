@@ -70,7 +70,7 @@ myApp.onPageInit('mail-index', function (page) {
     })
   });
 });
-
+//js-open-card
 // Generate dynamic page
 var dynamicPageIndex = 0;
 

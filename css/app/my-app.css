@@ -565,6 +565,7 @@ ol, ul {
       margin-left: -2vw;
       margin-top: 4.2592592593vw; }
 
+.card-suc-par,
 .card-par {
   width: 81.8518518519vw;
   height: 58.5185185185vw;
@@ -573,27 +574,28 @@ ol, ul {
   top: 77.3148148148vw;
   left: 11.0185185185vw;
   border-radius: 14px; }
-  .card-par p {
-    margin: auto;
-    width: 80%;
-    background: #fff; }
-  .card-par p:nth-child(1) {
-    margin-top: 5.2777777778vw;
-    height: 9.0740740741vw; }
-  .card-par p:nth-child(2) {
-    margin-top: 12.037037037vw;
-    height: 23.6111111111vw; }
-  .card-par .cnt {
-    text-align: center; }
-    .card-par .cnt .iconfont {
-      font-size: 8.7037037037vw;
-      color: #ccc;
-      margin-top: 2.7777777778vw; }
-    .card-par .cnt a {
-      display: block;
-      font-size: 3.7037037037vw;
-      color: #0099ff;
-      margin-top: 2.7777777778vw; }
+
+.card-par p {
+  margin: auto;
+  width: 80%;
+  background: #fff; }
+.card-par p:nth-child(1) {
+  margin-top: 5.2777777778vw;
+  height: 9.0740740741vw; }
+.card-par p:nth-child(2) {
+  margin-top: 12.037037037vw;
+  height: 23.6111111111vw; }
+.card-par .cnt {
+  text-align: center; }
+  .card-par .cnt .iconfont {
+    font-size: 8.7037037037vw;
+    color: #ccc;
+    margin-top: 2.7777777778vw; }
+  .card-par .cnt a {
+    display: block;
+    font-size: 3.7037037037vw;
+    color: #0099ff;
+    margin-top: 2.7777777778vw; }
 
 .cloudCard-open-par {
   padding-top: 4.6296296296vw;
@@ -605,16 +607,20 @@ ol, ul {
     .cloudCard-open-par .ty i {
       margin-right: 2.4074074074vw; }
   .cloudCard-open-par .kt {
+    display: block;
     width: 80.7407407407vw;
     height: 10vw;
+    line-height: 10vw;
     color: #fff;
     background: #ffcc00;
     outline: 0;
     border-radius: 0.9259259259vw;
     border: 0;
-    position: relative;
-    left: 50%;
-    margin-left: -40.3703703704vw; }
+    margin: auto;
+    text-align: center;
+    /* position: relative;
+     left: 50%;
+     margin-left: vw(-872/2);*/ }
   .cloudCard-open-par .gz {
     margin-top: 6.9444444444vw;
     padding-left: 3.2407407407vw;
@@ -694,5 +700,31 @@ ol, ul {
 .payStyle-card-item .icon-weixin {
   color: #7cc97c;
   font-size: 9.2592592593vw; }
+
+.card-suc-par p {
+  margin: 0;
+  line-height: 1.4; }
+.card-suc-par > p, .card-suc-par > div {
+  padding-left: 5.462962963vw; }
+.card-suc-par > div {
+  margin-top: 5.1851851852vw; }
+  .card-suc-par > div a:nth-child(1) {
+    margin-right: 22.1296296296vw; }
+.card-suc-par p:nth-child(1) {
+  margin: auto;
+  margin-top: 5.2777777778vw;
+  height: 9.0740740741vw;
+  width: 80%;
+  background: #fff; }
+.card-suc-par p:nth-child(2) {
+  text-align: center;
+  margin-top: 2.7777777778vw;
+  margin-bottom: 6.1111111111vw;
+  font-size: 3.6111111111vw;
+  font-weight: 600; }
+.card-suc-par .red {
+  color: #ff6666; }
+.card-suc-par .blue {
+  color: #0099ff; }
 
 /*# sourceMappingURL=my-app.css.map */
