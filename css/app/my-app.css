@@ -222,7 +222,7 @@ ol, ul {
   margin-top: 1.8518518519vw;
   font-size: 3.3333333333vw; }
 
-.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj {
+.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj, .cloudCard-open-par {
   padding-left: 3.1481481481vw;
   padding-right: 3.1481481481vw; }
 
@@ -538,5 +538,161 @@ ol, ul {
     text-align: center; }
   .inf-index-tab .active {
     border-bottom: 2px solid #ffcc33; }
+
+.card-page-content {
+  position: relative; }
+
+.card-bg img {
+  width: 100%;
+  height: 100%; }
+
+.card-cnt {
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .card-cnt .img-par {
+    position: absolute;
+    top: 39.4444444444vw;
+    left: 34.0740740741vw; }
+    .card-cnt .img-par img {
+      width: 30.462962963vw;
+      height: 18.7962962963vw; }
+    .card-cnt .img-par span {
+      display: inline-block;
+      color: #999;
+      font-size: 3.8888888889vw;
+      white-space: nowrap;
+      margin-left: -2vw;
+      margin-top: 4.2592592593vw; }
+
+.card-par {
+  width: 81.8518518519vw;
+  height: 58.5185185185vw;
+  background: #fefedb;
+  position: absolute;
+  top: 77.3148148148vw;
+  left: 11.0185185185vw;
+  border-radius: 14px; }
+  .card-par p {
+    margin: auto;
+    width: 80%;
+    background: #fff; }
+  .card-par p:nth-child(1) {
+    margin-top: 5.2777777778vw;
+    height: 9.0740740741vw; }
+  .card-par p:nth-child(2) {
+    margin-top: 12.037037037vw;
+    height: 23.6111111111vw; }
+  .card-par .cnt {
+    text-align: center; }
+    .card-par .cnt .iconfont {
+      font-size: 8.7037037037vw;
+      color: #ccc;
+      margin-top: 2.7777777778vw; }
+    .card-par .cnt a {
+      display: block;
+      font-size: 3.7037037037vw;
+      color: #0099ff;
+      margin-top: 2.7777777778vw; }
+
+.cloudCard-open-par {
+  padding-top: 4.6296296296vw;
+  padding-bottom: 4.6296296296vw; }
+  .cloudCard-open-par .ty {
+    color: #0099ff;
+    margin-top: 4.2592592593vw;
+    margin-left: 6.9444444444vw; }
+    .cloudCard-open-par .ty i {
+      margin-right: 2.4074074074vw; }
+  .cloudCard-open-par .kt {
+    width: 80.7407407407vw;
+    height: 10vw;
+    color: #fff;
+    background: #ffcc00;
+    outline: 0;
+    border-radius: 0.9259259259vw;
+    border: 0;
+    position: relative;
+    left: 50%;
+    margin-left: -40.3703703704vw; }
+  .cloudCard-open-par .gz {
+    margin-top: 6.9444444444vw;
+    padding-left: 3.2407407407vw;
+    color: #999;
+    line-height: 1.8; }
+    .cloudCard-open-par .gz p {
+      margin: 0; }
+
+.cloudCard-open-form {
+  background: #fff;
+  font-size: 3.7037037037vw; }
+  .cloudCard-open-form .gp {
+    line-height: 11.2962962963vw;
+    padding-left: 4.1666666667vw;
+    border-bottom: 1px solid #c6c6c6; }
+    .cloudCard-open-form .gp .name {
+      color: #999; }
+    .cloudCard-open-form .gp .r {
+      float: right;
+      color: #333;
+      margin-right: 1.8518518519vw; }
+      .cloudCard-open-form .gp .r .icon-arrow {
+        margin-right: 1.8518518519vw; }
+      .cloudCard-open-form .gp .r .icon-wenhao {
+        color: #0099ff;
+        margin-right: 1.8518518519vw;
+        margin-left: 0.9259259259vw; }
+      .cloudCard-open-form .gp .r.price {
+        color: #ff6666;
+        margin-right: 7.4074074074vw; }
+    .cloudCard-open-form .gp .label-switch {
+      margin-left: 1.3888888889vw; }
+
+.payStyle-card {
+  width: 82.4074074074vw;
+  height: 42.3148148148vw;
+  background: #f8f8f8;
+  border-radius: 1.8518518519vw;
+  margin-bottom: 4.4444444444vw;
+  position: relative;
+  margin-top: 3.4259259259vw; }
+  .payStyle-card ul {
+    padding-top: 2.7777777778vw;
+    padding-right: 4.6296296296vw; }
+
+.payStyle-card::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 3.4259259259vw solid #f8f8f8;
+  border-top: 3.4259259259vw solid transparent;
+  border-left: 3.4259259259vw solid transparent;
+  border-right: 3.4259259259vw solid transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.712962963vw;
+  top: -6.8518518519vw; }
+
+.payStyle-card-item .icon-anonymous-iconfont-copy {
+  color: #999; }
+.payStyle-card-item .name {
+  font-size: 3.9814814815vw; }
+.payStyle-card-item :nth-child(1) {
+  margin-left: 11.8518518519vw;
+  margin-right: 4.6296296296vw;
+  vertical-align: super; }
+.payStyle-card-item :nth-child(2) {
+  font-size: 4.6296296296vw; }
+.payStyle-card-item :nth-child(3) {
+  float: right; }
+.payStyle-card-item .icon-visa {
+  color: #ffcc00; }
+.payStyle-card-item .icon-zhifubao {
+  color: #00a7ff;
+  font-size: 7.4074074074vw; }
+.payStyle-card-item .icon-weixin {
+  color: #7cc97c;
+  font-size: 9.2592592593vw; }
 
 /*# sourceMappingURL=my-app.css.map */

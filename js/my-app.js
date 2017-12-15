@@ -28,7 +28,12 @@ var myApp = new Framework7({
         var as = $(this).children('a');
         as.removeClass('active');
         $(e.target).closest('a').addClass('active');
-      })
+      });
+      $('.js-yk').click(function () {
+        mainView.router.load({
+          url: 'cloudCard.html'
+        })
+      });
     }
 
     init();
