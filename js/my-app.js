@@ -40,6 +40,18 @@ var myApp = new Framework7({
           url: 'qrcode.html'
         })
       });
+      //失物招领
+      $('.js-swzl').click(function () {
+        mainView.router.load({
+          url: 'find.html'
+        })
+      });
+      //路线查询
+      $('.js-lxcx').click(function () {
+        mainView.router.load({
+          url: 'line.html'
+        })
+      });
     }
 
     init();
