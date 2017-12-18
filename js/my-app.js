@@ -34,6 +34,12 @@ var myApp = new Framework7({
           url: 'cloudCard.html'
         })
       });
+      //二维码进闸
+      $('.js-sm').click(function () {
+        mainView.router.load({
+          url: 'qrcode.html'
+        })
+      });
     }
 
     init();

@@ -222,7 +222,7 @@ ol, ul {
   margin-top: 1.8518518519vw;
   font-size: 3.3333333333vw; }
 
-.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj, .cloudCard-open-par {
+.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj, .cloudCard-open-par, .ewallet-par {
   padding-left: 3.1481481481vw;
   padding-right: 3.1481481481vw; }
 
@@ -726,5 +726,79 @@ ol, ul {
   color: #ff6666; }
 .card-suc-par .blue {
   color: #0099ff; }
+
+.qdm .qrcode-page-content {
+  background: url("../../img/card-bg.jpg"); }
+
+.qrcode-cnt .big-code-par {
+  width: 58.4259259259vw;
+  height: 68.4259259259vw;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16.8518518519vw;
+  text-align: center;
+  font-size: 3.4259259259vw; }
+  .qrcode-cnt .big-code-par p {
+    margin: 0;
+    line-height: 1; }
+  .qrcode-cnt .big-code-par img {
+    width: 36.1111111111vw;
+    height: 35.9259259259vw;
+    margin-top: 7.2222222222vw;
+    margin-left: auto;
+    margin-right: auto; }
+  .qrcode-cnt .big-code-par .hm {
+    margin-top: 3.7037037037vw;
+    margin-bottom: 4.6296296296vw; }
+  .qrcode-cnt .big-code-par .sy {
+    margin-bottom: 3.7037037037vw; }
+    .qrcode-cnt .big-code-par .sy span {
+      color: #999; }
+    .qrcode-cnt .big-code-par .sy i {
+      color: #ff6666;
+      margin-left: 1.6666666667vw; }
+  .qrcode-cnt .big-code-par .zf {
+    vertical-align: middle;
+    color: #666; }
+    .qrcode-cnt .big-code-par .zf .icon-zhifubao1 {
+      margin-right: 1.8518518519vw;
+      color: #02a9f1; }
+    .qrcode-cnt .big-code-par .zf .f7-icons {
+      margin-left: 1.8518518519vw;
+      font-size: 3.4259259259vw; }
+.qrcode-cnt .small-code-par {
+  margin-top: 25.7407407407vw;
+  text-align: center; }
+  .qrcode-cnt .small-code-par img {
+    width: 14.8148148148vw;
+    height: 14.537037037vw; }
+  .qrcode-cnt .small-code-par img:nth-child(1) {
+    margin-right: 20.7407407407vw; }
+
+.ewallet-par {
+  padding-top: 4.6296296296vw;
+  padding-bottom: 4.6296296296vw; }
+  .ewallet-par .zfList {
+    background: #fff;
+    font-size: 3.4259259259vw;
+    width: 100%;
+    padding-top: 1.8518518519vw;
+    padding-bottom: 1.8518518519vw; }
+    .ewallet-par .zfList tr {
+      padding-right: 4.1666666667vw; }
+    .ewallet-par .zfList td {
+      color: #333;
+      padding-left: 4.1666666667vw;
+      line-height: 2.2; }
+  .ewallet-par .gp .blue {
+    color: #00a7ff; }
+  .ewallet-par .zfb {
+    color: #000;
+    margin-left: 10vw; }
+    .ewallet-par .zfb .icon-zhifubao {
+      font-size: 6.1111111111vw;
+      color: #00a7ff;
+      margin-right: 1.4814814815vw; }
 
 /*# sourceMappingURL=my-app.css.map */
