@@ -121,6 +121,18 @@ ol, ul {
     font-size: 33*100/$sw +vw;
     margin-top: 10*100/$sw +vw;
   }
+  .right-my {
+    a {
+      color: #ffcc66;
+      font-size: vw(30);
+      vertical-align: middle;
+    }
+    .icon-qiandao {
+      color: #ffcc66;
+      font-size: vw(80);
+      margin-right: vw(8);
+    }
+  }
 }
 
 .linePar {
@@ -1064,6 +1076,127 @@ ol, ul {
       font-size: vw(66);
       color: #00a7ff;
       margin-right: vw(16);
+    }
+  }
+}
+
+.my-tx {
+  background: #148304;
+  text-align: center;
+  position: relative;
+  height: vw(363);
+  .icon-user {
+    font-size: vw(100);
+    color: #66cc00;
+  }
+  .tx-big,
+  .tx-small {
+    left: 50%;
+  }
+  .tx-big {
+    width: vw(210);
+    height: vw(210);
+    border-radius: 100%;
+    background: #fff;
+    opacity: .8;
+    display: inline-block;
+    position: absolute;
+    margin-left: vw(-210/2);
+    margin-top: vw(10);
+  }
+  .tx-small {
+    width: vw(190);
+    height: vw(190);
+    line-height: vw(190);
+    border-radius: 100%;
+    background: #fff;
+    margin-top: vw(20);
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin-left: vw(-190/2);
+  }
+  p {
+    position: absolute;
+    top: vw(220);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: vw(40);
+    span:nth-child(1) {
+      margin-right: vw(100);
+    }
+    span:nth-child(2) {
+
+    }
+  }
+}
+
+.my-cptab {
+  background: #f8f8f8;
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  li {
+    float: left;
+    width: 25%;
+    height: vw(50);
+    margin-top: vw(30);
+    margin-bottom: vw(30);
+    text-align: center;
+    line-height: vw(50);
+    border-right: 1px solid #ccc;
+    span {
+      color: #ffcc00;
+    }
+  }
+  li:last-child {
+    border-right: none;
+  }
+}
+
+.my-yw-par {
+  background: #fff;
+  font-size: vw(40);
+  i {
+    font-size: vw(40)
+  }
+  li {
+    @extend .index-pd-lr;
+    line-height: 1;
+    padding-top: vw(30);
+    padding-bottom: vw(30);
+    border-bottom: 1px solid #d9d9d9;
+    .name {
+      padding-left: vw(30);
+      & > .iconfont {
+        color: #ffcc33;
+        font-size: vw(50);
+        margin-right: vw(27);
+      }
+    }
+    .inf {
+      margin-top: vw(40);
+      width: 100%;
+      height: vw(316);
+      background: #fffbec;
+      border: 1px solid #ffcc99;
+      padding-top: vw(45);
+      padding-left: vw(25);
+      padding-right: vw(25);
+      font-size: vw(32);
+      border-radius: vw(10);
+      .title {
+        color: #ffcc00;
+        margin-top: 0;
+        margin-bottom: vw(25);
+      }
+      .cnt {
+        color: #d9d9d9;
+        line-height: 1.5;
+      }
     }
   }
 }
