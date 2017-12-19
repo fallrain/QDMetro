@@ -81,7 +81,8 @@ input {
     .qdm-icon-back {
       color: #fff;
     }
-    .iconfont {
+    .iconfont,
+    .f7-icons {
       font-size: 66*100/$sw +vw;
       color: #fff;
     }
@@ -1354,7 +1355,7 @@ input {
 .line-btm {
   position: fixed;
   bottom: vw(150);
-  width:100%;
+  width: 100%;
   @extend .index-pd-lr;
   height: vw(202);
   padding-top: vw(39);
@@ -1370,4 +1371,55 @@ input {
     line-height: 1;
     font-size: vw(32);
   }
+}
+
+.line-list-par {
+
+}
+
+.line-list-item {
+  @extend .index-pd-lr;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  font-size: vw(40);
+  height: vw(120);
+  line-height: vw(120);
+  color: #333;
+  background: #f8f8f8;
+  border-bottom: 1px solid #d6d6d6;
+  .start.active {
+    color: #009900;
+    .iconfont {
+      color: #009900;
+    }
+  }
+  .end.active {
+    color: #ffcc00;
+    .iconfont {
+      color: #ffcc00;
+    }
+  }
+  .mid.active {
+    color: #ffcc00;
+    .iconfont {
+      color: #ffcc00;
+    }
+  }
+  .iconfont {
+    vertical-align: middle;
+    margin-right: vw(14);
+    color: #999;
+  }
+  .icon-qi,
+  .icon-zhong {
+    font-size: vw(62);
+  }
+}
+
+.line-list-btm {
+  text-align: center;
+  height: vw(146);
+  line-height: vw(146);
+  background: #fff;
 }

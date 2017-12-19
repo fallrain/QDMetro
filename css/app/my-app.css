@@ -59,7 +59,8 @@ input {
   height: 12.2222222222vw; }
   .qdm .navbar .qdm-icon-back {
     color: #fff; }
-  .qdm .navbar .iconfont {
+  .qdm .navbar .iconfont,
+  .qdm .navbar .f7-icons {
     font-size: 6.1111111111vw;
     color: #fff; }
   .qdm .navbar .center {
@@ -253,7 +254,7 @@ input {
   margin-top: 1.8518518519vw;
   font-size: 3.3333333333vw; }
 
-.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj, .cloudCard-open-par, .ewallet-par, .my-yw-par li, .line-top, .line-btm {
+.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj, .cloudCard-open-par, .ewallet-par, .my-yw-par li, .line-top, .line-btm, .line-list-item {
   padding-left: 3.1481481481vw;
   padding-right: 3.1481481481vw; }
 
@@ -1046,5 +1047,41 @@ input {
     color: #999;
     line-height: 1;
     font-size: 2.962962963vw; }
+
+.line-list-item {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3.7037037037vw;
+  height: 11.1111111111vw;
+  line-height: 11.1111111111vw;
+  color: #333;
+  background: #f8f8f8;
+  border-bottom: 1px solid #d6d6d6; }
+  .line-list-item .start.active {
+    color: #009900; }
+    .line-list-item .start.active .iconfont {
+      color: #009900; }
+  .line-list-item .end.active {
+    color: #ffcc00; }
+    .line-list-item .end.active .iconfont {
+      color: #ffcc00; }
+  .line-list-item .mid.active {
+    color: #ffcc00; }
+    .line-list-item .mid.active .iconfont {
+      color: #ffcc00; }
+  .line-list-item .iconfont {
+    vertical-align: middle;
+    margin-right: 1.2962962963vw;
+    color: #999; }
+  .line-list-item .icon-qi,
+  .line-list-item .icon-zhong {
+    font-size: 5.7407407407vw; }
+
+.line-list-btm {
+  text-align: center;
+  height: 13.5185185185vw;
+  line-height: 13.5185185185vw;
+  background: #fff; }
 
 /*# sourceMappingURL=my-app.css.map */
