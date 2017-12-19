@@ -88,6 +88,22 @@ myApp.onPageInit('mail-index', function (page) {
     })
   });
 });
+
+//更多功能
+myApp.onPageInit('moreFun', function (page) {
+  $('.js-icon-bianji').on('click', function () {
+    var $this = $(this);
+    var isEdit = $this.attr('data-edit');
+    if (isEdit === '1') {
+      $('.js-jb').remove();
+      $this.attr('data-edit', 0);
+    } else {
+      $('.js-funItems-top').find('li').prepend('<i class="iconfont icon-jianhao js-jb"></i>');
+      $('.js-funItems-mid').find('li').prepend('<i class="iconfont icon-comiisjiahao js-jb"></i>');
+      $this.attr('data-edit', 1);
+    }
+  });
+});
 //js-open-card
 // Generate dynamic page
 var dynamicPageIndex = 0;

@@ -300,6 +300,19 @@ input {
 }
 
 .funItems {
+  .icon-comiisjiahao,
+  .icon-jianhao {
+    font-size: vw(20) !important;
+    position: absolute;
+    right: vw(87);
+  }
+  .icon-jianhao {
+    color: #a8a1a1;
+  }
+  .icon-comiisjiahao {
+    color: #f51c06;
+  }
+  //f51c06
   .circle {
     width: vw(134);
     height: vw(134);
@@ -321,6 +334,7 @@ input {
     float: left;
     width: 25%;
     text-align: center;
+    position: relative;
   }
   &:after {
     content: '';
@@ -1608,16 +1622,16 @@ input {
   .account {
     left: vw(271);
     width: vw(635);
-    height: vw(130);
-    top: vw(719);
-    padding-left:vw(10);
+    height: vw(110);
+    top: vw(731);
+    padding-left: vw(10);
   }
   .password {
     left: vw(271);
     width: vw(635);
-    height: vw(130);
-    top: vw(901);
-    padding-left:vw(10);
+    height: vw(110);
+    top: vw(912);
+    padding-left: vw(10);
   }
   .button {
     display: block;

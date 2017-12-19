@@ -226,6 +226,15 @@ input {
   display: block;
   clear: both; }
 
+.funItems .icon-comiisjiahao,
+.funItems .icon-jianhao {
+  font-size: 1.8518518519vw !important;
+  position: absolute;
+  right: 8.0555555556vw; }
+.funItems .icon-jianhao {
+  color: #a8a1a1; }
+.funItems .icon-comiisjiahao {
+  color: #f51c06; }
 .funItems .circle {
   width: 12.4074074074vw;
   height: 12.4074074074vw;
@@ -243,7 +252,8 @@ input {
   margin-bottom: 1.8518518519vw;
   float: left;
   width: 25%;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 .funItems:after {
   content: '';
   display: block;
@@ -1224,14 +1234,14 @@ input {
   .login-bg .account {
     left: 25.0925925926vw;
     width: 58.7962962963vw;
-    height: 12.037037037vw;
-    top: 66.5740740741vw;
+    height: 10.1851851852vw;
+    top: 67.6851851852vw;
     padding-left: 0.9259259259vw; }
   .login-bg .password {
     left: 25.0925925926vw;
     width: 58.7962962963vw;
-    height: 12.037037037vw;
-    top: 83.4259259259vw;
+    height: 10.1851851852vw;
+    top: 84.4444444444vw;
     padding-left: 0.9259259259vw; }
   .login-bg .button {
     display: block;
