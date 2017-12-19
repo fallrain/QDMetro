@@ -1212,4 +1212,32 @@ input {
     margin-bottom: 0;
     padding-bottom: 2.5925925926vw; }
 
+.login-bg {
+  position: relative; }
+  .login-bg img {
+    width: 100%;
+    height: 100%; }
+  .login-bg .account,
+  .login-bg .password,
+  .login-bg .button {
+    position: absolute; }
+  .login-bg .account {
+    left: 25.0925925926vw;
+    width: 58.7962962963vw;
+    height: 12.037037037vw;
+    top: 66.5740740741vw;
+    padding-left: 0.9259259259vw; }
+  .login-bg .password {
+    left: 25.0925925926vw;
+    width: 58.7962962963vw;
+    height: 12.037037037vw;
+    top: 83.4259259259vw;
+    padding-left: 0.9259259259vw; }
+  .login-bg .button {
+    display: block;
+    left: 16.8518518519vw;
+    width: 69.4444444444vw;
+    height: 11.1111111111vw;
+    top: 107.6851851852vw; }
+
 /*# sourceMappingURL=my-app.css.map */
