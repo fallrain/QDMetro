@@ -254,7 +254,7 @@ input {
   margin-top: 1.8518518519vw;
   font-size: 3.3333333333vw; }
 
-.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj, .cloudCard-open-par, .ewallet-par, .my-yw-par li, .line-top, .line-btm, .line-list-item {
+.index-pd-lr, .news-list-item, .imgnews-list, .newsDetail, .mail-fun, .product-list-par, .product-detail-cnt .price, .product-detail-title, .product-detail-seller-sj, .bztj, .cloudCard-open-par, .ewallet-par, .my-yw-par li, .line-top, .line-btm, .line-list-item, .line-detail-par .goup, .line-detail-zhan-list-par, .line-detail {
   padding-left: 3.1481481481vw;
   padding-right: 3.1481481481vw; }
 
@@ -1030,6 +1030,13 @@ input {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative; }
+  .line-map .sz {
+    display: block;
+    width: 39.1666666667vw;
+    height: 19.6296296296vw;
+    position: absolute;
+    top: 44.0740740741vw;
+    left: 28.7037037037vw; }
 
 .line-btm {
   position: fixed;
@@ -1083,5 +1090,126 @@ input {
   height: 13.5185185185vw;
   line-height: 13.5185185185vw;
   background: #fff; }
+
+.line-detail-par .goup {
+  margin-top: 3.2407407407vw;
+  background: #fdfde0;
+  padding-left: 7.7777777778vw;
+  height: 9.2592592593vw;
+  line-height: 9.2592592593vw; }
+  .line-detail-par .goup span {
+    color: #ff6666; }
+  .line-detail-par .goup button {
+    float: right;
+    height: 5.5555555556vw;
+    line-height: 5.5555555556vw;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 3.0555555556vw;
+    border-radius: 10rem;
+    background: #009900;
+    margin-top: 1.8518518519vw; }
+
+.line-detail-zhan-list-par {
+  padding-top: 7.5925925926vw;
+  background: #fff;
+  margin-top: 3.5185185185vw; }
+
+.line-detail-zhan-list {
+  padding-left: 3.7037037037vw; }
+  .line-detail-zhan-list:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.line-detail-zhan-item {
+  position: relative;
+  float: left;
+  font-size: 0; }
+  .line-detail-zhan-item .start {
+    position: absolute;
+    font-size: 2.5925925926vw;
+    color: #0099ff;
+    margin-top: 0;
+    margin-bottom: 0.9259259259vw;
+    line-height: 1;
+    top: -3.5185185185vw;
+    white-space: nowrap;
+    left: -1.1111111111vw; }
+  .line-detail-zhan-item .iconfont {
+    color: #0099ff;
+    vertical-align: middle;
+    font-size: 2.5925925926vw;
+    margin-right: 0.0925925926vw; }
+  .line-detail-zhan-item .sxian {
+    display: inline-block;
+    width: 0.9259259259vw;
+    height: 0.2777777778vw;
+    background: #0099ff;
+    vertical-align: middle;
+    margin-right: 0.0925925926vw; }
+  .line-detail-zhan-item .xian {
+    display: inline-block;
+    width: 2.5925925926vw;
+    height: 0.2777777778vw;
+    background: #0099ff;
+    vertical-align: middle;
+    margin-right: 0.0925925926vw; }
+  .line-detail-zhan-item .zhan {
+    margin-top: 1.6666666667vw;
+    writing-mode: vertical-lr;
+    color: #666;
+    font-size: 2.7777777778vw;
+    margin-left: -0.9259259259vw; }
+
+.line-detail {
+  background: #fff; }
+
+.line-detail-list {
+  padding-left: 7.1296296296vw;
+  padding-top: 3.1481481481vw;
+  padding-bottom: 3.1481481481vw;
+  padding-right: 3.1481481481vw;
+  border-bottom: 1px solid #ccc; }
+  .line-detail-list:last-child {
+    border-bottom: 0; }
+
+.line-detail-item {
+  font-size: 3.0555555556vw;
+  color: #666666;
+  padding-left: 3.8888888889vw;
+  position: relative;
+  min-height: 9.2592592593vw; }
+  .line-detail-item.mid {
+    color: #ccc; }
+    .line-detail-item.mid .iconfont {
+      color: #ccc; }
+    .line-detail-item.mid.active .iconfont {
+      color: #ffcc00; }
+  .line-detail-item .iconfont {
+    font-size: 6.4814814815vw;
+    position: absolute;
+    left: -3.2407407407vw;
+    top: -2.037037037vw; }
+  .line-detail-item .icon-qi,
+  .line-detail-item .icon-zhong {
+    color: #0099ff; }
+  .line-detail-item.solid {
+    border-left: 1px solid #0099ff; }
+  .line-detail-item .r {
+    float: right; }
+  .line-detail-item .blue {
+    color: #0099ff; }
+  .line-detail-item.dotted {
+    border-left: 1px dotted #ccc; }
+  .line-detail-item:last-child {
+    border-left: none; }
+  .line-detail-item .more {
+    font-size: 2.4074074074vw;
+    color: #999;
+    margin-top: 2.5925925926vw;
+    margin-bottom: 0;
+    padding-bottom: 2.5925925926vw; }
 
 /*# sourceMappingURL=my-app.css.map */
