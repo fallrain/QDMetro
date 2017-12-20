@@ -163,6 +163,11 @@ input {
       margin-right: vw(8);
     }
   }
+  .right-find {
+    a {
+      margin-left: vw(5) !important;
+    }
+  }
 }
 
 .linePar {
@@ -586,6 +591,9 @@ input {
   font-size: vw(39);
   color: #666;
   line-height: 1.8;
+  img {
+    width: 100%;
+  }
 }
 
 .mail-banner {
@@ -1006,15 +1014,16 @@ input {
     margin: auto;
     margin-top: vw(57);
     height: vw(98);
+    line-height: vw(98);
     width: 80%;
     background: #fff;
+    font-size: vw(45);
+    font-weight: 600;
   }
   p:nth-child(2) {
     text-align: center;
     margin-top: vw(30);
     margin-bottom: vw(66);
-    font-size: vw(39);
-    font-weight: 600;
   }
   .red {
     color: #ff6666;
@@ -1087,6 +1096,19 @@ input {
     }
     img:nth-child(1) {
       margin-right: vw(224);
+    }
+    p {
+      font-size: vw(37);
+      text-align: left;
+      span {
+        display: inline-block;
+      }
+      .l {
+        padding-left: vw(280);
+      }
+      .r {
+        padding-left: vw(240);
+      }
     }
   }
 }

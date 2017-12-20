@@ -43,7 +43,7 @@ var myApp = new Framework7({
       //失物招领
       $('.js-swzl').click(function () {
         mainView.router.load({
-          url: 'find.html'
+          url: 'find-list.html'
         })
       });
       //路线查询
@@ -103,6 +103,11 @@ myApp.onPageInit('moreFun', function (page) {
       $this.attr('data-edit', 1);
     }
   });
+});
+
+//失物招领
+myApp.onPageInit('find-list', function (page) {
+
 });
 //js-open-card
 // Generate dynamic page

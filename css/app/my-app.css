@@ -114,6 +114,8 @@ input {
   color: #ffcc66;
   font-size: 7.4074074074vw;
   margin-right: 0.7407407407vw; }
+.qdm .right-find a {
+  margin-left: 0.462962963vw !important; }
 
 .linePar {
   position: relative; }
@@ -443,6 +445,8 @@ input {
   font-size: 3.6111111111vw;
   color: #666;
   line-height: 1.8; }
+  .newsDetail-cnt img {
+    width: 100%; }
 
 .mail-banner {
   font-size: 0; }
@@ -756,14 +760,15 @@ input {
   margin: auto;
   margin-top: 5.2777777778vw;
   height: 9.0740740741vw;
+  line-height: 9.0740740741vw;
   width: 80%;
-  background: #fff; }
+  background: #fff;
+  font-size: 4.1666666667vw;
+  font-weight: 600; }
 .card-suc-par p:nth-child(2) {
   text-align: center;
   margin-top: 2.7777777778vw;
-  margin-bottom: 6.1111111111vw;
-  font-size: 3.6111111111vw;
-  font-weight: 600; }
+  margin-bottom: 6.1111111111vw; }
 .card-suc-par .red {
   color: #ff6666; }
 .card-suc-par .blue {
@@ -817,6 +822,15 @@ input {
     height: 14.537037037vw; }
   .qrcode-cnt .small-code-par img:nth-child(1) {
     margin-right: 20.7407407407vw; }
+  .qrcode-cnt .small-code-par p {
+    font-size: 3.4259259259vw;
+    text-align: left; }
+    .qrcode-cnt .small-code-par p span {
+      display: inline-block; }
+    .qrcode-cnt .small-code-par p .l {
+      padding-left: 25.9259259259vw; }
+    .qrcode-cnt .small-code-par p .r {
+      padding-left: 22.2222222222vw; }
 
 .ewallet-par {
   padding-top: 4.6296296296vw;
