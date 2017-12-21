@@ -129,39 +129,38 @@ input {
 
 .tip {
   position: absolute;
-  width: 171px;
-  height: 81px;
-  background: url("../../img/paopao.png");
+  width: 39.1666666667vw;
+  height: 26.2037037037vw;
+  background: url("../../img/line-tip.png");
+  background-size: 39.1666666667vw 26.2037037037vw;
   background-repeat: no-repeat;
   top: 300px;
   left: 120px; }
-
-.zhanname {
-  font-size: 1.2rem;
-  font-weight: 600;
-  width: 160px;
-  margin: auto;
-  height: 30px;
-  border-bottom: 1px solid;
-  margin-top: 5px;
-  padding-left: 20px; }
-
-.zbtns {
-  margin-top: 5px; }
-
-.qd {
-  background: #006600;
-  margin-left: 15px; }
-
-.zd {
-  background: red; }
-
-.qd, .zd {
-  width: 70px;
-  height: 28px;
-  line-height: 28px;
-  border: none;
-  color: #fff; }
+  .tip .zhanname {
+    font-size: 3.6111111111vw;
+    font-weight: 600;
+    text-align: center;
+    height: 10vw;
+    line-height: 10vw; }
+  .tip .qd {
+    margin-left: 3.4259259259vw; }
+  .tip .zd {
+    margin-left: 2.2222222222vw; }
+  .tip .zbtns {
+    height: 5.5555555556vw; }
+    .tip .zbtns::after {
+      content: '';
+      display: block;
+      clear: both; }
+  .tip .qd, .tip .zd {
+    float: left;
+    display: block;
+    width: 15.462962963vw;
+    height: 5.5555555556vw;
+    line-height: 5.5555555556vw;
+    color: #fff;
+    font-size: 3.0555555556vw;
+    text-align: center; }
 
 .line-btm-btns {
   width: 80%;
@@ -1061,9 +1060,78 @@ input {
     position: absolute;
     top: 44.0740740741vw;
     left: 28.7037037037vw; }
+  .line-map .z {
+    position: absolute;
+    width: 5.5555555556vw;
+    height: 5.5555555556vw; }
+  .line-map .z:nth-child(1) {
+    left: 1.8518518519vw;
+    top: 110.0925925926vw; }
+  .line-map .z:nth-child(2) {
+    left: 13.0555555556vw;
+    top: 114.7222222222vw; }
+  .line-map .z:nth-child(3) {
+    left: 23.1481481481vw;
+    top: 114.7222222222vw; }
+  .line-map .z:nth-child(4) {
+    left: 30.2777777778vw;
+    top: 114.2592592593vw; }
+  .line-map .z:nth-child(5) {
+    left: 35.6481481481vw;
+    top: 120.8333333333vw; }
+  .line-map .z:nth-child(6) {
+    left: 47.4074074074vw;
+    top: 114.537037037vw; }
+  .line-map .z:nth-child(7) {
+    left: 52.6851851852vw;
+    top: 110.2777777778vw; }
+  .line-map .z:nth-child(8) {
+    left: 58.0555555556vw;
+    top: 102.7777777778vw; }
+  .line-map .z:nth-child(9) {
+    left: 56.2037037037vw;
+    top: 94.4444444444vw; }
+  .line-map .z:nth-child(10) {
+    left: 56.2962962963vw;
+    top: 87.037037037vw; }
+  .line-map .z:nth-child(11) {
+    left: 56.2962962963vw;
+    top: 80.5555555556vw; }
+  .line-map .z:nth-child(12) {
+    left: 57.1296296296vw;
+    top: 70.8333333333vw; }
+  .line-map .z:nth-child(13) {
+    left: 65.2777777778vw;
+    top: 64.0740740741vw; }
+  .line-map .z:nth-child(14) {
+    left: 70vw;
+    top: 57.7777777778vw; }
+  .line-map .z:nth-child(15) {
+    left: 79.1666666667vw;
+    top: 47.7777777778vw; }
+  .line-map .z:nth-child(16) {
+    left: 85.462962963vw;
+    top: 42.2222222222vw; }
+  .line-map .z:nth-child(17) {
+    left: 88.7962962963vw;
+    top: 31.8518518519vw; }
+  .line-map .z:nth-child(18) {
+    left: 87.037037037vw;
+    top: 21.2962962963vw; }
+  .line-map .z:nth-child(19) {
+    left: 79.0740740741vw;
+    top: 16.4814814815vw; }
+  .line-map .z:nth-child(20) {
+    left: 72.2222222222vw;
+    top: 11.2962962963vw; }
+  .line-map .z:nth-child(21) {
+    left: 62.5vw;
+    top: 8.5185185185vw; }
+  .line-map .z:nth-child(22) {
+    left: 50.7407407407vw;
+    top: 9.9074074074vw; }
 
 .line-btm {
-  position: fixed;
   bottom: 13.8888888889vw;
   width: 100%;
   height: 18.7037037037vw;
@@ -1089,17 +1157,13 @@ input {
   color: #333;
   background: #f8f8f8;
   border-bottom: 1px solid #d6d6d6; }
-  .line-list-item .start.active {
+  .line-list-item.startActive .start, .line-list-item.startActive .mid {
     color: #009900; }
-    .line-list-item .start.active .iconfont {
+    .line-list-item.startActive .start .icon-qi, .line-list-item.startActive .mid .icon-qi {
       color: #009900; }
-  .line-list-item .end.active {
+  .line-list-item.endActive .end, .line-list-item.endActive .mid {
     color: #ffcc00; }
-    .line-list-item .end.active .iconfont {
-      color: #ffcc00; }
-  .line-list-item .mid.active {
-    color: #ffcc00; }
-    .line-list-item .mid.active .iconfont {
+    .line-list-item.endActive .end .icon-zhong, .line-list-item.endActive .mid .icon-zhong {
       color: #ffcc00; }
   .line-list-item .iconfont {
     vertical-align: middle;
