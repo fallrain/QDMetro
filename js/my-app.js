@@ -161,12 +161,6 @@ myApp.onPageInit('line', function (page) {
 });
 //线路列表
 myApp.onPageInit('line-list', function (page) {
-  //点击商品，跳转商品详情
-  $('.product-list-item').on('click', function () {
-    mainView.router.load({
-      url: 'product-detail.html'
-    })
-  });
   var items = $('.line-list-item');
   items.on('click', '.start', function () {
     items.removeClass('startActive');
@@ -196,6 +190,11 @@ myApp.onPageInit('line-list', function (page) {
     }
   });
 
+});
+//线路详情
+myApp.onPageInit('line-detail', function (page) {
+  $('.js-zhan1').text(lineObj.qd);
+  $('.js-zhan2').text(lineObj.zd);
 });
 //js-open-card
 // Generate dynamic page
